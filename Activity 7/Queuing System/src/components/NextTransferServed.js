@@ -6,9 +6,9 @@ const NextTransferServed = () => {
       <div className='NextTransferServedChildDiv'>
         <p className='NextTransferServedParagraph'>Next</p>
       </div>
-      <div className='NextTransferServedChildDiv'>
+{/*       <div className='NextTransferServedChildDiv'>
         <p className='NextTransferServedParagraph'>Transfer</p>
-      </div>
+      </div> */}
       <div className='NextTransferServedChildDiv'>
         <p className='NextTransferServedParagraph'>Served</p>
       </div>
