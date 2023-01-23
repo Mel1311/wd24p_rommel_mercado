@@ -1,5 +1,5 @@
 
-const NextTransferServe = () => {
+const NextTransferServed = () => {
   return (
 <div>
   <button type="button" class="btn btn-primary btn-lg">Next</button>
@@ -10,4 +10,4 @@ const NextTransferServe = () => {
   );
 };
 
-export default NextTransferServe;
+export default NextTransferServed;
