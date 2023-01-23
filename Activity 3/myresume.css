@@ -1,0 +1,19 @@
+.mypersonalinfo {
+    border: 1px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+body {
+    padding-top: 10px;
+    padding-bottom: 10-px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
