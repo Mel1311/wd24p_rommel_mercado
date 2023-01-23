@@ -1,0 +1,9 @@
+.IntroductionDiv {
+    position: absolute;
+    right: 14em;
+    top: 35em;
+}
+
+.IntroductionParagraph {
+    font-size: 0.9em;
+}

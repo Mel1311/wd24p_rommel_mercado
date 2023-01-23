@@ -1,23 +1,24 @@
+import './NowServing.css';
 
 
 const NowServing = () => {
   return (
 
-    <div>
-      <div>
-        <p>Now Serving</p>
-        <h2>001</h2>
-        <p>Please proceed to the counter</p>
+    <div className='NowServingParentDiv'>
+      <div className='NowServingChildDiv'>
+        <p className='NowServingParagraph'>Now Serving</p>
+        <h2 className='NowServingHeading2'>001</h2>
+        <p className='NowServingParagraph'>Please proceed to the counter</p>
       </div>
-      <div>
-        <p>Now Serving</p>
-        <h2>002</h2>
-        <p>Please proceed to the counter</p>
+      <div className='NowServingChildDiv'>
+        <p className='NowServingParagraph'>Now Serving</p>
+        <h2 className='NowServingHeading2'>002</h2>
+        <p className='NowServingParagraph'>Please proceed to the counter</p>
       </div>
-      <div>
-        <p>Now Serving</p>
-        <h2>009</h2>
-        <p>Please proceed to the counter</p>
+      <div className='NowServingChildDiv'>
+        <p className='NowServingParagraph'>Now Serving</p>
+        <h2 className='NowServingHeading2'>009</h2>
+        <p className='NowServingParagraph'>Please proceed to the counter</p>
       </div>
     </div>
   );

@@ -1,15 +1,18 @@
+import './QueueNumber.css';
 
 const QueueNumber = () => {
   return (
-    <div>
-      <p>This is your Queue</p>
-      <h1>001</h1>
-      <p>
+    
+    <div className='QueueNumberParentDiv'>
+      <p className='QueueNumberParagraph'>This is your Queue</p>
+      <h1 className='QueueNumberHeading1'>001</h1>
+      <p className='QueueNumberParagraph'>
         Please wait on your queue to be called and proceed to your designated
         counter
       </p>
-      <h4>Thanks for using My Queuing System</h4>
+      <h4 className='QueueNumberHeading4'>Thanks for using My Queuing System</h4>
     </div>
+   
   );
 };
 

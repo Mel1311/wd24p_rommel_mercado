@@ -1,15 +1,16 @@
+import './TotalServed.css';
 
 const TotalServed = () => {
   return (
-    <div>
-      <div>
-        <p>Total Served: 10</p>
+    <div className='TotalServedParentDiv'>
+      <div className='TotalServedChildDiv'>
+        <p className='TotalServedParagraph'>Total Served: 10</p>
       </div>
-      <div>
-        <p>Total Served: 5</p>
+      <div className='TotalServedChildDiv'>
+        <p className='TotalServedParagraph'>Total Served: 5</p>
       </div>
-      <div>
-        <p>Total Served: 15</p>
+      <div className='TotalServedChildDiv'>
+        <p className='TotalServedParagraph'>Total Served: 15</p>
       </div>
     </div>
   );

@@ -1,11 +1,18 @@
+import './NextTransferServed.css';
 
 const NextTransferServed = () => {
   return (
-<div>
-  <button type="button" class="btn btn-primary btn-lg">Next</button>
-  <button type="button" class="btn btn-secondary btn-lg">Transfer</button>
-  <button type="button" class="btn btn-secondary btn-lg">Served</button>
-</div>
+    <div className='NextTransferServedParentDiv'>
+      <div className='NextTransferServedChildDiv'>
+        <p className='NextTransferServedParagraph'>Next</p>
+      </div>
+      <div className='NextTransferServedChildDiv'>
+        <p className='NextTransferServedParagraph'>Transfer</p>
+      </div>
+      <div className='NextTransferServedChildDiv'>
+        <p className='NextTransferServedParagraph'>Served</p>
+      </div>
+    </div>
 
   );
 };
