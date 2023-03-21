@@ -1,0 +1,113 @@
+/* App container */
+#app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Contacts list */
+#contacts-container {
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.contacts-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.contacts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contacts-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Chat history */
+#chat-history-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.chat-header {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.chat-message {
+  margin-bottom: 20px;
+}
+
+.chat-message strong {
+  font-weight: bold;
+}
+
+/* Chat input */
+#chat-input-container {
+  display: flex;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#chat-input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#chat-send-button {
+  padding: 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
